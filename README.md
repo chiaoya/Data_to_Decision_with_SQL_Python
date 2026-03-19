@@ -2,3 +2,4 @@
 A hands-on adult education course in Berlin focused on improving work efficiency through data analysis with SQL and Python.
 
 SQL practice platform: https://www.sql-practice.online/
+Ace your data sience interview: https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/tree/main
