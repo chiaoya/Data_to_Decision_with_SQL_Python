@@ -78,6 +78,14 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Course generated files / local tooling
+.DS_Store
+*.pptx
+*.docx
+node_modules/
+*.json
+*.js
+
 # IPython
 profile_default/
 ipython_config.py
