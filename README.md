@@ -3,7 +3,57 @@
 **Von Daten zur Entscheidung**  
 5 Tage Intensivkurs, 40 UE, mit SQL, Python, Pandas, Visualisierung und Abschlussprojekt.
 
-Dieser Kurs ist für Einsteigerinnen und Einsteiger konzipiert. Programmierkenntnisse sind nicht erforderlich, aber grundlegende Computerkenntnisse und Interesse an Daten sind hilfreich.
+## Willkommen
+
+Herzlich willkommen zum Kurs  
+**„Data Analytics mit SQL & Python - Von Daten zur Entscheidung“**
+
+Dieses Repository enthält die Kursnotebooks, Übungen und Datensätze für eine praxisorientierte Woche rund um SQL, Python, Pandas, Visualisierung und datenbasierte Entscheidungen.
+
+Der Kurs ist für Einsteigerinnen und Einsteiger konzipiert. Programmierkenntnisse sind nicht erforderlich, aber grundlegende Computerkenntnisse und Interesse an Daten sind hilfreich.
+
+## Kursmaterialien
+
+Du arbeitest mit:
+
+- Tagesnotebooks für Tag 1 bis Tag 5
+- Exercise-Notebooks für Warm-ups, Gruppenübungen und Transferaufgaben
+- lokalen Übungsdaten wie Household Budget, Shop und Fitness
+- externen messy datasets für EDA, Data Cleaning und Abschlussprojekt
+- optionalen Präsentationsfolien als PDF oder PPTX
+
+Die Notebooks sind interaktive Dateien. Du kannst sie lokal mit **Jupyter Notebook / JupyterLab** oder online mit **Google Colab** öffnen.
+
+## Nutzung mit Google Colab
+
+Google Colab ist besonders praktisch, wenn du nichts lokal installieren möchtest.
+
+1. Öffne https://colab.research.google.com.
+2. Wähle den Reiter **GitHub**.
+3. Gib dieses Repository ein: `https://github.com/chiaoya/Data_to_Decision_with_SQL_Python`.
+4. Wähle das gewünschte `.ipynb`-Notebook aus.
+5. Führe Codezellen mit `Shift + Enter` aus.
+6. Speichere bei Bedarf eine eigene Kopie in Google Drive: **Datei > Kopie in Drive speichern**.
+
+Hinweis: Wenn ein Notebook lokale Dateien aus `data_practice_tables/` verwendet, ist die lokale Nutzung in Jupyter oft einfacher. In Colab musst du diese Dateien gegebenenfalls hochladen oder den Pfad anpassen.
+
+## Nutzung lokal
+
+1. Repository herunterladen oder klonen.
+2. Python installieren: https://www.python.org/
+3. Jupyter installieren:
+
+```bash
+pip install notebook
+```
+
+4. Jupyter starten:
+
+```bash
+jupyter notebook
+```
+
+5. Im Browser das gewünschte Tag-Notebook öffnen.
 
 ## Kursziel
 
@@ -257,11 +307,39 @@ Wenn externe Daten nicht geladen werden:
 - Notebook-Zelle erneut ausführen
 - bei Bedarf CSV manuell aus GitHub herunterladen
 
+## Execution Notes
+
+- Führe Zellen immer von oben nach unten aus.
+- Starte bei Fehlern zuerst Kernel/Runtime neu und führe die Setup-Zellen erneut aus.
+- Ersetze Platzhalter wie `_____`, bevor du eine Übungszelle ausführst.
+- Manche externe CSV-Dateien werden direkt von GitHub geladen und benötigen Internet.
+- In Gruppenübungen ist es wichtiger, eine klare Frage sauber zu beantworten, als jede mögliche Analyse auszuprobieren.
+
+## Häufige Probleme
+
+| Problem | Lösung |
+|---|---|
+| `ModuleNotFoundError` | Fehlendes Paket installieren, z. B. `pip install pandas seaborn matplotlib` |
+| Datei wird nicht gefunden | Prüfe den Arbeitsordner und ob `data_practice_tables/` vorhanden ist |
+| Externe CSV lädt nicht | Internet prüfen oder Datei manuell herunterladen |
+| SQL-Abfrage gibt Fehler | Tabellennamen, Spaltennamen und Anführungszeichen prüfen |
+| Notebook wirkt durcheinander | Kernel neu starten und Zellen von oben nach unten ausführen |
+
 ## Nützliche Ressourcen
 
 - SQL practice platform: https://www.sql-practice.online/
 - Data Science Interview Questions: https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/tree/main
 - Messy datasets: https://github.com/eyowhite/Messy-dataset
+
+## Next Steps
+
+Nach dem Kurs kannst du weiter üben, indem du:
+
+- eigene CSV-Dateien mit Pandas untersuchst
+- SQL-Fragen zu realen Arbeitsdaten formulierst
+- kleine Dashboards oder Reports mit Plotly oder Power BI erstellst
+- an Kaggle-Datensätzen Data Cleaning und EDA trainierst
+- deine Abschlussprojekt-Storyline auf ein eigenes Business-Problem überträgst
 
 ## Abschluss
 
@@ -272,3 +350,19 @@ Rohdaten -> Datenqualität prüfen -> Bereinigen -> Analysieren -> Visualisieren
 ```
 
 Wenn du am Ende der Woche eine Datenfrage sauber strukturieren, mit SQL und Python untersuchen und als kurze Empfehlung präsentieren kannst, hast du den wichtigsten Schritt geschafft.
+
+## Dozentin
+
+### Dr. Chiao-Ya Chang
+
+PhD | Data Scientist | AI Trainer
+
+Schwerpunkte:
+
+- Applied Data Science
+- Business Analytics
+- Supply Chain Analytics
+- AI for Business Applications
+
+Weitere Kursmaterialien und verwandte Projekte:  
+https://github.com/chiaoya/Deep-Learning-Foundations-Python-Tensorflow

@@ -85,6 +85,7 @@ target/
 node_modules/
 *.json
 *.js
+local_only/
 
 # IPython
 profile_default/
