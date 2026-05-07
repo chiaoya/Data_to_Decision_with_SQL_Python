@@ -35,7 +35,7 @@ Google Colab ist besonders praktisch, wenn du nichts lokal installieren möchtes
 5. Führe Codezellen mit `Shift + Enter` aus.
 6. Speichere bei Bedarf eine eigene Kopie in Google Drive: **Datei > Kopie in Drive speichern**.
 
-Hinweis: Wenn ein Notebook lokale Dateien aus `data_practice_tables/` verwendet, ist die lokale Nutzung in Jupyter oft einfacher. In Colab musst du diese Dateien gegebenenfalls hochladen oder den Pfad anpassen.
+Hinweis: Wenn ein Notebook lokale Dateien aus `course_data/` verwendet, ist die lokale Nutzung in Jupyter oft einfacher. In Colab musst du diese Dateien gegebenenfalls hochladen oder den Pfad anpassen.
 
 ## Nutzung lokal
 
@@ -92,7 +92,7 @@ Einige Notebooks laden Daten direkt von GitHub. Dafür brauchst du eine aktive I
 Tag 1/
   Day_1_Data_Analytics_SQL_Python.ipynb
   Day_1_Data_Analytics_SQL_Python_Exercises.ipynb
-  data_practice_tables/
+  course_data/
 
 Tag 2/
   Day_2_Data_Analytics_SQL_Python.ipynb
@@ -320,7 +320,7 @@ Wenn externe Daten nicht geladen werden:
 | Problem | Lösung |
 |---|---|
 | `ModuleNotFoundError` | Fehlendes Paket installieren, z. B. `pip install pandas seaborn matplotlib` |
-| Datei wird nicht gefunden | Prüfe den Arbeitsordner und ob `data_practice_tables/` vorhanden ist |
+| Datei wird nicht gefunden | Prüfe den Arbeitsordner und ob `course_data/` vorhanden ist |
 | Externe CSV lädt nicht | Internet prüfen oder Datei manuell herunterladen |
 | SQL-Abfrage gibt Fehler | Tabellennamen, Spaltennamen und Anführungszeichen prüfen |
 | Notebook wirkt durcheinander | Kernel neu starten und Zellen von oben nach unten ausführen |
