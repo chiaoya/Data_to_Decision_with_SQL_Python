@@ -1,21 +1,21 @@
 class_id,class_name,trainer,price
-201,Class_1,Max,19
-202,Class_2,Julia,10
-203,Class_3,Max,10
-204,Class_4,Anna,22
-205,Class_5,Julia,29
-206,Class_6,Tom,29
-207,Class_7,Tom,15
-208,Class_8,Tom,24
-209,Class_9,Julia,24
-210,Class_10,Tom,13
-211,Class_11,Max,27
-212,Class_12,Julia,29
-213,Class_13,Julia,18
-214,Class_14,Anna,17
-215,Class_15,Max,14
-216,Class_16,Tom,25
-217,Class_17,Tom,28
-218,Class_18,Anna,13
-219,Class_19,Tom,12
-220,Class_20,Anna,26
+201,Morning Yoga,Max,19
+202,Beginner Pilates,Julia,10
+203,Core Strength,Max,10
+204,HIIT Burn,Anna,22
+205,Power Yoga,Julia,29
+206,Spin Endurance,Tom,29
+207,Bodyweight Basics,Tom,15
+208,Kettlebell Training,Tom,24
+209,Stretch and Mobility,Julia,24
+210,Cardio Kickboxing,Tom,13
+211,Functional Fitness,Max,27
+212,Advanced Pilates,Julia,29
+213,Barre Workout,Julia,18
+214,Strength Circuit,Anna,17
+215,Boxing Conditioning,Max,14
+216,Indoor Cycling,Tom,25
+217,Athletic Performance,Tom,28
+218,Total Body Tone,Anna,13
+219,Recovery Stretch,Tom,12
+220,Glute Strength,Anna,26
